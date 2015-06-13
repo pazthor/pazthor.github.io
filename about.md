@@ -1,11 +1,12 @@
 ---
 layout: page
-title: About
+title: Acerca de... :v
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+¡Hola, soy pazthor!
+Trataré de escribir sobre mis historias, un poco de las tecnologias que he usado o estoy usando, tutoriales, y no se que más se me ocurra.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Puedes encontrar el código de mi sitio  en : [github.com/pazthor/pazthor.github.io](https://github.com/pazthor/pazthor.github.io)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Fin.

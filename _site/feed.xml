@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Feb 2015 21:45:01 -0600</pubDate>
-    <lastBuildDate>Sun, 15 Feb 2015 21:45:01 -0600</lastBuildDate>
+    <title>Tu sorprendete título haha</title>
+    <description>Sitio personal donde escribiré mis artículos, probaré el sitio y escribiré de lo que lea, platique y experimente.</description>
+    <link>http://pazthor.github.io/</link>
+    <atom:link href="http://pazthor.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 12 Jun 2015 23:40:17 -0500</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2015 23:40:17 -0500</lastBuildDate>
     <generator>Jekyll v1.5.1</generator>
     
       <item>
-        <title>Comenznado otra vez, pero ahora en github</title>
-        <description>&lt;p&gt;Hola,  ya tiene tiempo que no escribia en un blog, desde un blog sobre noticias de tecnología o  simplemente ocio hasta un blog personal que solo hablara sobre mis pensamientos, emociones u opiniones de la vida. En esta ocasión quiero hacer un blog que hable sobre  programación y aventuras relacionadas con  este ambito, espero lograr esta meta que estaba en modo &lt;code&gt;Stand by&lt;/code&gt; y ahora en un agarre de emociones y esperanza he dado el banderazo, espero te sientas comodo con lo que leas aca y si no, te invito a entrar a otros sitios como scala.org.mx :)&lt;/p&gt;
+        <title>Escribiendo</title>
+        <description>&lt;p&gt;Estoy viendo una pelicula llamada (en español) “Mente indomable” y ya estando en ello,  decidi comenza a escribir sobre ello, para recordar  como es esto de escribir.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/screenshot.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jun 2015 17:00:50 -0500</pubDate>
+        <link>http://pazthor.github.io/personal/beer/2015/06/12/escribiendo/</link>
+        <guid isPermaLink="true">http://pazthor.github.io/personal/beer/2015/06/12/escribiendo/</guid>
+        
+        
+        <category>personal</category>
+        
+        <category>beer</category>
+        
+      </item>
+    
+      <item>
+        <title>Comenzado otra vez, pero ahora en Github-page</title>
+        <description>&lt;p&gt;Hola,  ya tiene tiempo que no escribia en un blog, desde un blog sobre noticias de tecnología u ocio hasta un blog personal que solo hablara sobre mis pensamientos, emociones u opiniones de la vida. En esta ocasión quiero hacer un blog que hable sobre  programación y aventuras relacionadas con  este ambito, espero lograr esta meta que estaba en modo &lt;code&gt;Stand by&lt;/code&gt; y ahora en un agarre de emociones y esperanza he dado el banderazo de partida, espero te sientas cómodo con lo que leas aca y si no, te invito a entrar a otros sitios como &lt;a href=&quot;http://scala.org.mx&quot;&gt;scala.org.mx&lt;/a&gt; :)&lt;/p&gt;
 
 &lt;p&gt;A modo de dar un “hello world”, dejare el siguiente codigo:&lt;/p&gt;
 
@@ -23,10 +40,11 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Saludos, J.C.&lt;/p&gt;
+
 </description>
-        <pubDate>Sat, 02 Aug 2014 17:00:50 -0500</pubDate>
-        <link>http://yourdomain.com/personal/beer/2014/08/02/comenzando-otra-vez/</link>
-        <guid isPermaLink="true">http://yourdomain.com/personal/beer/2014/08/02/comenzando-otra-vez/</guid>
+        <pubDate>Sun, 15 Feb 2015 16:00:50 -0600</pubDate>
+        <link>http://pazthor.github.io/personal/beer/2015/02/15/comenzando-otra-vez/</link>
+        <guid isPermaLink="true">http://pazthor.github.io/personal/beer/2015/02/15/comenzando-otra-vez/</guid>
         
         
         <category>personal</category>
