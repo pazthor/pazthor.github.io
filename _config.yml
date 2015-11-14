@@ -1,14 +1,57 @@
-# Site settings
-title: Tu sorprendete título haha
-email: final.africae@gmail.com
-description: "Sitio personal donde escribiré mis artículos, probaré el sitio y escribiré de lo que lea, platique y experimente."
-baseurl: ""
-url: "http://pazthor.github.io"
-twitter_username: Pazthor
-github_username:  Pazthor
+# Dependencies
+markdown:	kramdown
+highlighter:	pygments
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Permalinks
+permalink:	/blog/:title
 
-name: El proyecto de blog 
+# Setup
+title:		Blog personal de Julio César
+tagline:	'blog'
+description:	'Mi blog personal, escritos sobre experiencias de ciencia y tecnología'
+url:		http://pazthor.github.io
+commentsystem:	disqus
+disqus:		pazthor
+
+author:
+  name:		'Julio César Pastor Marcelo'
+url: https://pazthor.github.io
+
+paginate:	10
+
+# Custom vars
+icon:		/assets/images/icon.jpg
+cover:		/assets/images/cover.png
+social:
+  - icon:	twitter
+    url:	https://twitter.com/pazthor
+    desc:	Sígueme en Twitter
+
+  - icon:	github
+    url:	https://github.com/pazthor
+    desc:	Sigue mis proyectos en Github
+
+  - icon:	googleplus-alt
+    url:	https://google.com/+juliocesarPastor
+    desc:	Agrégame en google+
+
+  - icon:	feed
+    url:	http://pazthor.github.io/atom.xml
+    desc:	Suscríbete a mi feed
+
+menu:
+  - title:	Home
+    url:	/
+
+  - title:	Sobre mi
+    url:	/sobre-mi
+
+copyright:
+  author:	Julio Pastor
+  url:		http://pazthor.github.io
+  type_title:	Algunos derechos reservados
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+
+google_analytics: UA-70101251-1
