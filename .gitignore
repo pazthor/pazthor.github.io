@@ -1,7 +1,9 @@
 #site generated#
 _site/
+_site/*.*
 # Compile source #
 
 
 
 # logs and database  #
+Gemfile.lock

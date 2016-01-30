@@ -12,31 +12,6 @@ Note, that if the array has two intersecting continuous non-decreasing subsequen
 
 Asymptotics — O(n).
 Source: [Kefa and First Steps]
-{% highlight C %}
-#include<stdio.h>
-int array[100003];
-int main(){
-  int n,i,max,count;
-  scanf("%d",&n);
-  for( i =0; i< n; i++)
-    scanf("%d", &array[i]);
-  max = count =1;
-  for(i =1; i < n ; i++){
-    if(array[i] >= array[i-1])
-      count++;
-    else if(max < count){
-      max = count;
-      count =1;
-    }else count =1;
-
-  }
-  if(max < count) max = count;
-  printf("%d",max);
-
-
-return 0;
-}
-{% endhighlight %}
 
 
 
@@ -45,7 +20,7 @@ It's easy to see that number x can appear in column i only once — in row x /
 The complexity is O(n)
 Source: [Multiplication Table]
 
-
+{% gist pazthor/be5c66f77eca71a1a8b6  %}
 
 {% highlight c %}
 #include<stdio.h>
