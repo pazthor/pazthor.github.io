@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nuevo año nuevas metas"
+title:  "Nuevo año, nuevas metas"
 date:   2016-01-31 21:52:50
 categories: personal beer
 ---
@@ -16,4 +16,4 @@ El día uno  de los 9 días que llevo fue algo triste, creí que era triste come
 
 Estoy empezando con la __segunda semana__ y estoy tranquilo, no habrá problema, poco a poco iré aumentando mis salidas a correr y, quien sabe, a lo mejor *corro un maratón*, ya saben, **por el mame**.
 
-Y esa es mi __nueva meta__ saludable jaja, tengo otras metas de las cuales, hablaré después, 
+Y esa es mi __nueva meta__ saludable jaja, tengo otras metas de las cuales, hablaré después,
