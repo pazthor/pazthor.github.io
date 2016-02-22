@@ -2,7 +2,7 @@
 layout: post
 title:  "Nuevo año, nuevas metas"
 quote: y el porque estamos gordos...
-image: false
+image: /assets/images/spidermeme.jpg
 date:   2016-01-31 21:52:50
 categories: personal beer
 
