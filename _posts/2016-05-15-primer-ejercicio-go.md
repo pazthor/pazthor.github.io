@@ -14,8 +14,8 @@ license_link: https://github.com/
 thumbnail: scribble.png
 ---
 Tome esté desafío para que podamos aprender Go, como lo menciona el autor en su blog,
-de una manera más practica y no solo hacer puros hola mundo de manera muy tediosa.
-se recomienda que  quien se anime a hacer los problemas/deasfíos, sepa programar.
+de una manera más practica y no solo hacer puros "hola mundo" de manera muy tediosa.
+se recomienda que  quien se anime a hacer los problemas/desafíos, sepa programar.
 
 # Toque y Fama
 
