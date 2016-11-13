@@ -3,12 +3,12 @@ markdown:	kramdown
 highlighter:	rouge
 
 # Permalinks
-permalink:	/blog/:title
+permalink:	/blog/:title # porque no tendremos muchos post y, pienso, es mas elegante
 
 # Setup
-title:		Blog personal de Julio César
+title:		Blog Personal
 tagline:	'blog'
-description:	'Mi blog personal, escritos sobre experiencias de ciencia y tecnología'
+description:	'blog sobre experiencia y notas sobre lo que estoy aprendiendo'
 url:		http://pazthor.github.io
 commentsystem:	disqus
 disqus:		pazthor
@@ -17,7 +17,7 @@ author:
   name:		'Julio César Pastor Marcelo'
 url: https://pazthor.github.io
 
-paginate:	10
+paginate:	5
 
 # Custom vars
 icon:		/assets/images/icon.jpg
@@ -54,6 +54,10 @@ copyright:
 
 gems:
   - jekyll-gist
+  - jekyll-paginate
+  - jemoji
+  - jekyll-sitemap
+  
 
 # Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
 google_analytics: UA-70101251-1
