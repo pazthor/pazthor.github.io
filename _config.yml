@@ -6,7 +6,7 @@ highlighter:	rouge
 permalink:	/blog/:title # porque no tendremos muchos post y, pienso, es mas elegante
 
 # Setup
-title:		Blog Personal
+title:		Blog Personal de Julio C. Pastor
 tagline:	'blog'
 description:	'blog sobre experiencia y notas sobre lo que estoy aprendiendo'
 url:		http://pazthor.github.io
