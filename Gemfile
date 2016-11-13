@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "2.0.0"
+ruby "2.2.3"
 gem 'jekyll'
 gem 'guard'
 gem 'guard-jekyll-plus'
@@ -10,3 +10,4 @@ gem 'therubyracer'
 gem 'thor'
 gem 'jekyll-gist'
 gem 'rouge'
+gem 'jekyll-sitemap'
