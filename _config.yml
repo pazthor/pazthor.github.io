@@ -46,6 +46,9 @@ menu:
   - title:	Sobre mi
     url:	/sobre-mi
 
+  - title: Pila de libros
+    url:       /lecturas
+
 copyright:
   author:	Julio Pastor
   url:		http://pazthor.github.io
@@ -57,7 +60,7 @@ gems:
   - jekyll-paginate
   - jemoji
   - jekyll-sitemap
-  
+
 
 # Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
 google_analytics: UA-70101251-1
