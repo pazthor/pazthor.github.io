@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "2.2.3"
+ruby "2.5.5"
 gem 'jekyll'
 gem 'guard'
 gem 'guard-jekyll-plus'
