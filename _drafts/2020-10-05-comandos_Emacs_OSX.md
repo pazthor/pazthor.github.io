@@ -1,8 +1,25 @@
+---
+layout: post
+title: notas emacs
+date: 2020-10-05
+categories : [lessons, beginner, emacs ]
+category : lessons
+homepage: https://github.com/
+author: Pazthor
+tagline: "Supporting tagline"
+tags : [intro, beginner, jekyll, tutorial]
+license: MIT License
 
-Funciona para la versión de emacs 24.5.1 y con la interfaz gráfica.
+license_link: https://github.com/
+thumbnail: scribble.png
+
+---
 
 
-##Mover por páginas##
+### Funciona para la versión de emacs 24.5.1 y con la interfaz gráfica.
+
+
+## Mover por páginas##
 Ctrl v – (siguiente)
 Alt v – (anterior)
 Ctrl l – Limpiar la pantalla y volver a mostrar todo el texto, moviendo el texto alrededor del cursor al centro de la pantalla.

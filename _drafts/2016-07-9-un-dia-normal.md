@@ -1,13 +1,14 @@
-Estoy escribiendo (que noveda')
-vaya que estoy tiempo que no hacia, escribir cosas ridiculas, escribo porque hoy ya deje de comenzar a sospechar y
-ya estoy en el fondo un buen rato.  no pienso en que  me depara el futuro
-pero se que esto puede mejorar, tengo esperanza, solo son pensamientos
-que intentan mantenerme lejos de mi potencial, aunque todos los dias es
-lo mismo, me levanto,  me quedo un rato en la cama, intento levantarme
-y ya dan las 7:20, me baño, regreso a la cama, intento meditar me divago
-bajo por las escaleras preparo cafe, prendo la tele, voy por pan,  caliento el
-agua,  la pongo sobre la avena, preparo el cafe y muelo el grano para la
-proxima vez que necesite tomar, ya son las 8:30...
+Estoy escribiendo (que noveda') vaya que estoy tiempo que no hacia,
+escribir cosas ridiculas, escribo porque hoy ya deje de comenzar a
+sospechar y ya estoy en el fondo un buen rato.  no pienso en que me
+depara el futuro pero se que esto puede mejorar, tengo esperanza, solo
+son pensamientos que intentan mantenerme lejos de mi potencial, aunque
+todos los dias es lo mismo, me levanto, me quedo un rato en la cama,
+intento levantarme y ya dan las 7:20, me baño, regreso a la cama,
+intento meditar me divago bajo por las escaleras preparo cafe, prendo
+la tele, voy por pan, caliento el agua, la pongo sobre la avena,
+preparo el cafe y muelo el grano para la proxima vez que necesite
+tomar, ya son las 8:30...
 
 Veo la tele, me distraigo mientras desayuno, dan las 9, me voy a la mesa
 donde "acondicione" para poder trabajar, enfrente de mi hay un gran pizarron
