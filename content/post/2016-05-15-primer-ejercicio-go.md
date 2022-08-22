@@ -1,17 +1,19 @@
 ---
-layout: post
-title: toque y fama...
-date: 2016-05-14 22:00:50
-categories : [lessons, beginner]
-category : lessons
-homepage: https://github.com/
 author: Mu-An Chiou
-tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+categories:
+- lessons
+date: "2016-05-15T22:00:50Z"
+homepage: https://github.com/
 license: MIT License
-
 license_link: https://github.com/
+tagline: Supporting tagline
+tags:
+- intro
+- beginner
+- jekyll
+- tutorial
 thumbnail: scribble.png
+title: toque y fama...
 ---
 Tome esté desafío para que podamos aprender Go, como lo menciona el autor en su blog,
 de una manera más practica y no solo hacer puros "hola mundo" de manera muy tediosa.

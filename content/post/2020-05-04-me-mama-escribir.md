@@ -1,18 +1,18 @@
 ---
-layout: post
-title: Lo que siento al escribir
-date: 2020-10-05
-categories : [reflection, non-tech, thoughs]
-category : non-tech
-homepage: https://github.com/
 author: Julio
-tagline: "escribir lo que sea"
-tags : [intro, beginner, non-tech]
+categories:
+- non-tech
+date: "2020-05-04T00:00:00Z"
+homepage: https://github.com/
 license: MIT License
-
 license_link: https://github.com/
+tagline: escribir lo que sea
+tags:
+- intro
+- beginner
+- non-tech
 thumbnail: scribble.png
-
+title: Lo que siento al escribir
 ---
 ## Nota del autor
 Esté post fue una reflexión de hace un año, específicamente el 27 de

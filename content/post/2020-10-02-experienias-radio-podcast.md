@@ -1,17 +1,19 @@
 ---
-layout: post
-title:  "Experiencias a la hora de hacer radio, una entrevista a Ivan Reyes"
-date: 2020-10-02 23:50:50
-categories : [lessons, Interview, radio, podcast]
-category : personal podcast
-homepage: https://pazthor.github.io/
 author: Julio Pastor
-tagline: "Podcast Radio"
-tags : [intro, radio, Entrevista, recomendaciones]
+categories:
+- personal podcast
+date: "2020-10-02T23:50:50Z"
+homepage: https://pazthor.github.io/
 license: MIT License
-
 license_link: https://github.com/
+tagline: Podcast Radio
+tags:
+- intro
+- radio
+- Entrevista
+- recomendaciones
 thumbnail: scribble.png
+title: Experiencias a la hora de hacer radio, una entrevista a Ivan Reyes
 ---
 
 ## *Nota del autor*

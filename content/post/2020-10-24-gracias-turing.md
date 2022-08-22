@@ -1,19 +1,16 @@
 ---
-layout: post
-title: Gracias Turing
-date: 2020-10-24
-categories : [personal]
-category : personal
-homepage: https://github.com/
 author: Julio
-tagline: "Turing la mascota"
-tags : [personal]
+categories:
+- personal
+date: "2020-10-24T00:00:00Z"
+homepage: https://github.com/
 license: MIT License
-
 license_link: https://github.com/
-thumbnail:  scribble.png
-
-
+tagline: Turing la mascota
+tags:
+- personal
+thumbnail: scribble.png
+title: Gracias Turing
 ---
 
 ![Turing](/assets/images/turing.JPG)

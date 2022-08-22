@@ -1,18 +1,19 @@
 ---
-layout: post
-title: El primer día de clases
-date: 2020-10-07
-categories : [non-tech, reflection]
-category : non-tech
-homepage: https://github.com/
 author: Julio Pastor
-tagline: "Universitarios "
-tags : [intro, beginner,non-tech,personal]
+categories:
+- non-tech
+date: "2020-10-07T00:00:00Z"
+homepage: https://github.com/
 license: MIT License
-
 license_link: https://github.com/
+tagline: 'Universitarios '
+tags:
+- intro
+- beginner
+- non-tech
+- personal
 thumbnail: scribble.png
-
+title: El primer día de clases
 ---
 
 
