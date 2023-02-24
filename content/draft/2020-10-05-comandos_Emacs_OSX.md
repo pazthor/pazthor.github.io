@@ -20,7 +20,6 @@ title: notas emacs
 
 ### Funciona para la versión de emacs 24.5.1 y con la interfaz gráfica.
 
-
 ## Mover por páginas##
 Ctrl v – (siguiente)
 Alt v – (anterior)
@@ -71,3 +70,7 @@ Ctrl x 3 – Divide la ventana en 2 de manera vertical.
 Ctrl x 1 – Deja solo una ventana abierta.
 Ctrl Alt v – scrollea la ventana donde no tengo el foco.
 Ctrl x o – cambia el cursor de una ventana a otra
+
+
+
+## Emacs Doom##
