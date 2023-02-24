@@ -1,0 +1,3 @@
+[submodule "herring-cove"]
+	path = thems/hugo-theme-diary
+	url = git@github.com:AmazingRise/hugo-theme-diary.git
