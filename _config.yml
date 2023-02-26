@@ -1,0 +1,66 @@
+# Dependencies
+markdown:	kramdown
+highlighter:	rouge
+
+# Permalinks
+permalink:	/blog/:title # porque no tendremos muchos post y, pienso, es mas elegante
+
+# Setup
+title:		Blog Personal de Julio C. Pastor
+tagline:	'blog'
+description:	'blog sobre experiencia y notas sobre lo que estoy aprendiendo'
+url:		http://pazthor.github.io
+commentsystem:	disqus
+disqus:		pazthor
+
+author:
+  name:		'Julio César Pastor Marcelo'
+url: https://pazthor.github.io
+
+paginate:	5
+
+# Custom vars
+icon:		/assets/images/icon.jpg
+cover:		/assets/images/cover.png
+social:
+  - icon:	twitter
+    url:	https://twitter.com/pazthor
+    desc:	Sígueme en Twitter
+
+  - icon:	github
+    url:	https://github.com/pazthor
+    desc:	Sigue mis proyectos en Github
+
+  - icon:	googleplus-alt
+    url:	https://google.com/+juliocesarPastor
+    desc:	Agrégame en google+
+
+  - icon:	feed
+    url:	http://pazthor.github.io/atom.xml
+    desc:	Suscríbete a mi feed
+
+menu:
+  - title:	Home
+    url:	/
+
+  - title:	Sobre mi
+    url:	/sobre-mi
+
+  - title: Pila de libros
+    url:       /lecturas
+
+copyright:
+  author:	Julio Pastor
+  url:		http://pazthor.github.io
+  type_title:	Algunos derechos reservados
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
+
+gems:
+  - jekyll-gist
+  - jekyll-paginate
+  - jemoji
+  - jekyll-sitemap
+
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+google_analytics: UA-70101251-1

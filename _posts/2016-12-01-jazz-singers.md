@@ -1,7 +1,8 @@
 ---
-categories: personal jazz beer
-date: "2016-12-01T22:00:50Z"
-title: Artistas de Jazz que pretendo escuchar este año
+layout: post
+title:  "Artistas de Jazz que pretendo escuchar este año"
+date:   2015-12-01 22:00:50
+categories: personal jazz beer 
 ---
 
 

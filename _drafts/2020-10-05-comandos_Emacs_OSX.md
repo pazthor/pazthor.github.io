@@ -1,20 +1,18 @@
 ---
-author: Pazthor
-categories:
-- lessons
-date: "2020-10-05T00:00:00Z"
-draft: true
-homepage: https://github.com/
-license: MIT License
-license_link: https://github.com/
-tagline: Supporting tagline
-tags:
-- intro
-- beginner
-- jekyll
-- tutorial
-thumbnail: scribble.png
+layout: post
 title: notas emacs
+date: 2020-10-05
+categories : [lessons, beginner, emacs ]
+category : lessons
+homepage: https://github.com/
+author: Pazthor
+tagline: "Supporting tagline"
+tags : [intro, beginner, jekyll, tutorial]
+license: MIT License
+
+license_link: https://github.com/
+thumbnail: scribble.png
+
 ---
 
 
