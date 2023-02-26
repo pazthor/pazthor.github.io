@@ -8,3 +8,7 @@ _site/*.*
 # logs and database  #
 Gemfile.lock
 .DS_Store
+
+
+## ide
+.idea
