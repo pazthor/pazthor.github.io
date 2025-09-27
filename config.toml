@@ -1,0 +1,25 @@
+baseURL = "https://pazthor.github.io/"
+languageCode = "en-us"
+title = "Pazthor Blog"
+theme = "paztheme"
+paginate = 10
+publishDir = "public"
+enableGitInfo = true
+
+[permalinks]
+  posts = "/posts/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  author = "pazthor"
+  description = "Notes and updates from Pazthor."
+  showReadingTime = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

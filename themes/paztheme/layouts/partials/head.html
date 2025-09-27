@@ -1,0 +1,7 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ $styles := resources.Get "css/site.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+<link rel="alternate" type="application/rss+xml" href="{{ .Site.RSSLink }}" title="{{ .Site.Title }}">

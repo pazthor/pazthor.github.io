@@ -1,0 +1,5 @@
+name = "paztheme"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+authors = ["pazthor"]
+min_version = "0.120.0"

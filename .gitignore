@@ -12,3 +12,8 @@ Gemfile.lock
 
 ## ide
 .idea
+
+# Hugo build artifacts
+public/
+resources/
+.hugo_build.lock

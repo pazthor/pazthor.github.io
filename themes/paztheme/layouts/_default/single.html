@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <article class="post-card">
+    <h1>{{ .Title }}</h1>
+    <p class="post-meta">{{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read</p>
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+    {{ with .Params.tags }}
+      <p class="post-meta">Tags:
+        {{ range $index, $tag := . }}
+          {{ if $index }}, {{ end }}<a href="{{ (print "/tags/" $tag | urlize | relURL) }}">{{ $tag }}</a>
+        {{ end }}
+      </p>
+    {{ end }}
+  </article>
+{{ end }}

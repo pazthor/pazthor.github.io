@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-title" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
+        <p class="site-description">{{ .Site.Params.description }}</p>
+      </div>
+    </header>
+    <main class="container">
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>

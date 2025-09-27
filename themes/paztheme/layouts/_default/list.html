@@ -1,0 +1,25 @@
+{{ define "main" }}
+  {{ if .IsHome }}
+    {{ with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
+  {{ else }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
+  {{ end }}
+
+  {{ range .Paginator.Pages }}
+    <article class="post-card">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p class="post-meta">{{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read</p>
+      {{ with .Description }}<p>{{ . }}</p>{{ else }}{{ with .Summary }}<p>{{ . }}</p>{{ end }}{{ end }}
+    </article>
+  {{ end }}
+
+  <nav class="pagination">
+    <div>
+      {{ if .Paginator.HasPrev }}<a href="{{ .Paginator.Prev.URL }}">← Newer Posts</a>{{ end }}
+    </div>
+    <div>
+      {{ if .Paginator.HasNext }}<a href="{{ .Paginator.Next.URL }}">Older Posts →</a>{{ end }}
+    </div>
+  </nav>
+{{ end }}
