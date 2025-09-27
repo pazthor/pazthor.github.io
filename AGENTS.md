@@ -1,23 +1,22 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-The repository hosts a Jekyll-powered GitHub Pages site. Keep page-level content in the project root or a `pages/` folder, blog posts in `_posts/` using `YYYY-MM-DD-title.md`, shared templates in `_layouts/` and `_includes/`, and styles or images under `assets/`. Generated output belongs only in `_site/`, which remains untracked per `.gitignore`.
+This is a Hugo site targeted at GitHub Pages. Author content in `content/` (posts in `content/posts/`), companion data in `_data/` if needed, and archetypes in `archetypes/`. Site-wide settings live in `config.toml`. The `themes/` directory is populated on demand with `hugo-theme-console`; it is retrieved during local/dev workflows, so the repository only keeps configuration and content. Generated artifacts land in `public/` (ignored via `.gitignore`).
 
 ## Build, Test, and Development Commands
-- `bundle install` — install Ruby gems declared in `Gemfile` before first run.
-- `bundle exec jekyll serve --livereload` — start the local server at `http://127.0.0.1:4000` for iterative development.
-- `bundle exec jekyll build` — produce a production build in `_site/`; use this to verify Pages deployments.
-- `bundle exec htmlproofer ./_site` — optional link and HTML validation prior to merging.
-- `docker compose up hugo` — launch the containerized dev server at http://localhost:1313 using the bundled compose file.
+- `docker compose up hugo` — run the console-themed dev server at `http://localhost:1313` with live reload; first launch fetches the theme automatically.
+- `hugo server` — alternative local preview if Hugo is installed natively (ensure `themes/hugo-theme-console/` exists by cloning the theme).
+- `hugo --minify` — production build used by GitHub Actions.
+- `npm run htmlproofer` — placeholder for optional static checks; replace with your preferred validation if added later.
 
 ## Coding Style & Naming Conventions
-Use Markdown (CommonMark) for content pages and Liquid for templating. Indent HTML/Liquid with two spaces, keep YAML front matter compact, and prefer descriptive section headings. Include alt text for images, and store reusable includes with kebab-case filenames (e.g., `_includes/site-footer.html`). Posts follow the standard dated filename plus a concise, hyphenated slug. Keep CSS modular inside `assets/css/` and avoid inlining styles.
+Write posts in Markdown with front matter in YAML. Keep filenames lowercase and hyphenated (e.g., `disable-laptop-monitor-omarchy.md`). Use Hugo shortcodes instead of raw HTML when practical, and limit inline styling so the theme controls presentation. Tag names and categories should use kebab-case for consistency with the console theme’s tag listing.
 
 ## Testing Guidelines
-Always run `bundle exec jekyll build` before pushing to catch Liquid or front matter errors. When adding navigation, verify links via `htmlproofer` or the browser inspector. For data-driven pages, add sanity checks in `_data/` by validating keys and running a local build with `JEKYLL_ENV=production` to mirror deployment behavior.
+Before committing, run either `docker compose up hugo` or `hugo server` and confirm the console interface renders correctly, navigation works, and syntax highlighting matches expectations. For new shortcodes or partials, add minimal sample content and verify layout in multiple terminal color schemes if relevant. For deployment parity, execute `hugo --minify` locally to surface build errors that live reload might hide.
 
 ## Commit & Pull Request Guidelines
-Recent commits use brief, imperative statements (e.g., "delete old file blogs"); continue this style but add context when touching multiple areas. Reference related issues in the body, summarize user-facing changes, and include before/after screenshots for visual tweaks. For pull requests, list build or validation commands executed, note any content migrations, and flag follow-up tasks so maintainers can deploy confidently.
+Keep commit messages imperative and scoped (e.g., “add containerized hugo workflow”). Mention significant content additions, configuration changes, or theme overrides in the body. Pull requests should summarize reader-facing changes, list local verification commands (include whether the Docker workflow was run), and link any related issues. Screenshot updates aren’t required unless you customize the theme’s visuals.
 
-## Deployment & Maintenance
-GitHub Pages builds directly from `main`, so merge-ready branches must pass local builds. Update dependencies periodically with `bundle update` and document any version bumps in the PR. After merge, confirm the live site renders as expected and roll back promptly if regressions appear.
+## Theme & Deployment Notes
+GitHub Actions clones `hugo-theme-console` during each build (`.github/workflows/gh-pages.yml`). If you need to customize the theme, fork it and change the clone URL. Pages deploys from `main` via the workflow; verify results after merge by visiting `https://pazthor.github.io/` once the action completes.
