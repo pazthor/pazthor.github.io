@@ -1,7 +1,7 @@
 baseURL = "https://pazthor.github.io/"
 languageCode = "en-us"
 title = "Pazthor Blog"
-theme = "paztheme"
+theme = "hugo-theme-console"
 [pagination]
   pagerSize = 10
 
@@ -25,3 +25,20 @@ enableGitInfo = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[menu]
+
+[[menu.main]]
+  name = "posts"
+  url = "/posts/"
+  weight = 1
+
+[[menu.main]]
+  name = "tags"
+  url = "/tags/"
+  weight = 2
+
+[[menu.main]]
+  name = "about"
+  url = "/"
+  weight = 3
