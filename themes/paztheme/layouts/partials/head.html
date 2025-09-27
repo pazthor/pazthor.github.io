@@ -4,4 +4,6 @@
 {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ $styles := resources.Get "css/site.css" | resources.Minify }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
-<link rel="alternate" type="application/rss+xml" href="{{ .Site.RSSLink }}" title="{{ .Site.Title }}">
+{{ with site.Home.OutputFormats.Get "RSS" }}
+<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ $.Site.Title }}">
+{{ end }}
