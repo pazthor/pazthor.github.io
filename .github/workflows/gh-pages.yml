@@ -28,6 +28,10 @@ jobs:
         with:
           hugo-version: "latest"
           extended: true
+      - name: Fetch theme
+        run: |
+          rm -rf themes/hugo-theme-console
+          git clone --depth 1 https://github.com/mrmierzejewski/hugo-theme-console.git themes/hugo-theme-console
       - name: Build
         run: hugo --minify
       - name: Upload artifact
