@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   hugo:
-    image: klakegg/hugo:0.125.6-ext-alpine
+    image: klakegg/hugo:ext-alpine
     command: server --bind 0.0.0.0 --baseURL http://localhost:1313 --watch --disableFastRender
     ports:
       - "1313:1313"
