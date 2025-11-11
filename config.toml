@@ -40,5 +40,5 @@ enableGitInfo = true
 
 [[menu.main]]
   name = "about"
-  url = "/"
+  url = "/about/"
   weight = 3
