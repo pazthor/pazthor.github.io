@@ -1,4 +1,4 @@
-baseURL = "https://pazthor.github.io/"
+baseURL = "https://blog.pazth.org/"
 languageCode = "en-us"
 title = "Pazthor Blog"
 theme = "PaperMod"
